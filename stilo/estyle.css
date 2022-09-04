@@ -35,13 +35,13 @@ header {
     color: rgb(255, 255, 255);
     min-height: 150px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 header > h1{
     color: white;
     font-size: 3em;
-    font-family: var(--font-android);
+    font-family: var(--font-destaque);
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(68, 67, 67, 0.322);
 }
@@ -51,21 +51,20 @@ header > p {
     font-size: 1.2em;
     color: white;
     max-width: 600px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px 10px 10px 10px;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.301);
 }
 
 nav {
     background-color: rgb(7, 82, 7);
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.199);
 }
 
 nav > a {
     color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
