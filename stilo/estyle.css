@@ -42,7 +42,7 @@ header > h1{
     color: white;
     font-size: 3em;
     font-family: var(--font-padrao);
-    margin-bottom: 20px;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(68, 67, 67, 0.322);
 }
 
