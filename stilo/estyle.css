@@ -8,7 +8,7 @@
     --cor2: #34B35C;
     --cor3: #1E6635;
     --cor4: #3C6649;
-    --cor5: dimgray;
+    --cor5: white;
 
     --font-padrao: Arial, Verdana, Helvetica, sans-serif;
     --font-destaque: 'Bebas Neue', 'cursive';
@@ -21,9 +21,9 @@
 }
 
 body {
-    background-color: rgb(63, 62, 62);
+    background-color: white;
     font-family: var(--font-padrao);
-    color: white;
+    color:  black;
 }
 
 a.externo::after {
@@ -32,7 +32,7 @@ a.externo::after {
 
 header {
     background-image: linear-gradient(rgb(20, 184, 20),rgb(11, 94, 11));
-    color: rgb(255, 255, 255);
+    color: black;
     min-height: 150px;
     text-align: center;
     padding-top: 50px;
@@ -41,19 +41,18 @@ header {
 header > h1{
     color: white;
     font-size: 3em;
-    font-family: var(--font-padrao);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(68, 67, 67, 0.322);
 }
 
 header > p {
-    font-family: var(--font-padrao);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
-    color: white;
+    color:  white;
     max-width: 600px;
     padding: 10px 10px 10px 10px;
-    margin: auto;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.301);
+    margin: auto;   
 }
 
 nav {
@@ -74,7 +73,7 @@ nav > a {
 
 nav > a:hover {
     background-color: rgb(255, 255, 255);
-    color: rgb(10, 107, 10);
+    color: rgb(6, 102, 6);
 }
 
 main {
@@ -83,7 +82,7 @@ main {
     padding: 20px;
     margin: auto;
     margin-bottom: 30px;
-    background-color: rgba(43, 42, 42, 0.74);
+    background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -107,9 +106,9 @@ main p {
 }
 
 main strong {
-    color: rgb(33, 255, 4);
+    color: rgb(32, 219, 8);
     font-weight: bold;
-    background-color: #131212ef;
+    background-color: rgb(160, 158, 158);
     padding: 2px 6px;
     border-radius: 3px;
 }
@@ -117,7 +116,7 @@ main strong {
 main a {
     text-decoration: none;
     font-weight: bold;
-    color: rgba(238, 255, 0, 0.863);
+    color: red;
 }
 
 main a:hover {
@@ -135,7 +134,7 @@ main img.pequena {
 }
 
 div.video {
-    background-color: rgb(66, 65, 65);
+    background-color: rgba(231, 228, 228, 0.815);
     margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 56.5%;
@@ -151,14 +150,15 @@ div.video > iframe {
 }
 
 aside {
-   background-color: rgb(71, 71, 71);
+   background-color: rgb(255, 255, 255);
    padding: 10px;
    border-radius: 10px;
-   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.267);
+   box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.267);
 }
 
 aside > h3 {
     background-color: rgb(14, 150, 14);
+    color: white;
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 5px 5px 0px 0px;
@@ -170,9 +170,21 @@ aside > ul {
     columns: 2;
 }
 
+aside > ul > li {
+    text-decoration: none;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+abbr a:hover {
+    text-decoration: underline;
+}
+
 footer {
     font-family: var(--font-destaque);
-    background-color: rgb(48, 46, 46);
+    background-color: green;
     color: white;
     text-align: center;
     font-size: 1.0em;
